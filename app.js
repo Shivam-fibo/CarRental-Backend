@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-    origin: ['https://carrental-one.vercel.app/'],
+    origin: ['https://carrental-one.vercel.app'],
     credentials: true
 }));
 
